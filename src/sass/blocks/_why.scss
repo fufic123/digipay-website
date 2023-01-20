@@ -1,0 +1,62 @@
+.why {
+    background-color: $l-blue;
+    min-height: 700px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &-content {
+            margin-top: 173px;
+            &__links {
+                display: flex;
+                flex-direction: row;
+                column-gap: 16px;
+                margin-top: 70px;
+                a {
+                    width: 100%;
+                    img {
+                        height: 71px;
+                    }
+                }
+            }
+        }
+        &-group1 {
+            margin-left: 184px;
+            margin-top: 173px;
+        }
+        &-group2 {
+            // margin-right: 300px;
+            margin-top: 158px;
+        }
+        &-card {
+            width: 269px;
+            height: 179px;
+            background: $yellow;
+            box-shadow: inset 14.9333px -14.9333px 14.9333px rgba(184, 134, 60, 0.1), inset -14.9333px 14.9333px 14.9333px rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(14.9333px);
+            /* Note: backdrop-filter has minimal browser support */
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            &-2 {
+                margin-top: 11px;
+            }
+            &__title {
+                font-family: 'PT Serif';
+                font-weight: 700;
+                font-size: 80px;
+                text-align: center;
+                color: #0C0909;
+            }
+            &__descr {
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 26px;
+                text-align: center;
+                color: #0C0909;
+            }
+        }
+    }
+}

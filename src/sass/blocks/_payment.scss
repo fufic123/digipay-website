@@ -1,0 +1,14 @@
+.payment {
+    background: url("../img/bg/2.jpg") left no-repeat;
+    background-color: #E5E9F2;
+    min-height: 1119px;
+    position: relative;
+    &__content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 347px;
+        max-width: 622px;
+    }
+}

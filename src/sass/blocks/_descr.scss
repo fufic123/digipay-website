@@ -1,0 +1,19 @@
+.descr {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24.2559px;
+    line-height: 29px;
+    max-width: 519px;
+    color: #FFFFFF;
+    &-nextgr {
+        margin-top: 21px;
+    }
+    &-payment {
+        color: #000000;
+        margin-top: 50px;
+    }
+    &-why {
+        max-width: 426px;
+        margin-top: 30px;
+    }
+}

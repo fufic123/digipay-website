@@ -4,11 +4,20 @@
     font-size: 60px;
     line-height: 66px;
     color: #FFFFFF;
+    strong {
+        font-weight: 500;
+    }
     &-nextgr {
         max-width: 622px;
         font-weight: 300;
-        strong {
-            font-weight: 500;
-        }
+    }
+    &-payment {
+        color: #000000;
+        font-size: 68px;
+        line-height: 75px;
+    }
+    &-why {
+        font-size: 68px;
+        line-height: 75px;
     }
 }

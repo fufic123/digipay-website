@@ -8,13 +8,6 @@
         justify-content: space-between;
         &-face {
             padding-top: 152px;
-            &__descr {
-                font-size: 24.2559px;
-                line-height: 29px;
-                max-width: 519px;
-                color: #FFFFFF;
-                margin-top: 21px;
-            }
             &__link {
                 margin-top: 55px;
                 display: flex;
@@ -149,10 +142,23 @@
                 height: 100%;
                 position: absolute;
                 top: 340px;
-                p {
-                    font-size: 24.2559px;
-                    line-height: 29px;
-                    color: #FFFFFF;
+                &-wrapper {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 12px;
+                    align-items: center;
+                    justify-content: center;
+                    p {
+                        font-size: 24.2559px;
+                        line-height: 29px;
+                        color: #FFFFFF;
+                    }
+                    &__circle {
+                        width: 11px;
+                        height: 11px;
+                        border-radius: 100%;
+                        background-color: #209902;
+                    }
                 }
                 img {
                     width: 298px;
