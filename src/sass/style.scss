@@ -1,0 +1,10 @@
+@import 'vars/vars';
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&family=Inter&family=Mulish&display=swap');.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+@import 'blocks/btn';
+@import 'blocks/header';
+@import 'blocks/nextgr';
+@import 'blocks/title'

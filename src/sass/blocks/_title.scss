@@ -1,0 +1,14 @@
+.title {
+    font-family: 'Akshar';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    color: #FFFFFF;
+    &-nextgr {
+        max-width: 622px;
+        font-weight: 300;
+        strong {
+            font-weight: 500;
+        }
+    }
+}
