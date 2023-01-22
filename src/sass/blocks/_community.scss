@@ -1,0 +1,60 @@
+.community {
+    min-height: 900px;
+    background-color: $l-blue;
+    position: relative;
+    &__img {
+        width: 837px;
+        height: 800px;
+        position: absolute;
+        top: -250px;
+        left: 83px;
+    }
+    &__qr {
+        position: absolute;
+        width: 387px;
+        height: 385px;
+        left: 490px;
+        bottom: 240px;
+        // padding: 45px 43px 60px 11px;
+        background: rgba(217, 217, 217, 0.1);
+        box-shadow: inset 28.7333px -28.7333px 28.7333px rgba(165, 165, 165, 0.1), inset -28.7333px 28.7333px 28.7333px rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(28.7333px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 20px;
+        &-img {
+            width: 100%;
+            margin-top: 43px;
+            margin-left: 50px;
+            img {
+                height: 282px;
+            }
+        }
+        &-text {
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 30px;
+            width: 100%;
+            line-height: 36px;
+            color: #FFFFFF;
+            margin-top: 13px;
+            margin-left: 62px;
+        }
+    }
+    &-content {
+        margin-top: 378px;
+        position: absolute;
+        right: 60px;
+        &__links {
+            display: flex;
+            flex-direction: row;
+            column-gap: 16px;
+            margin-top: 172px;
+            a {
+                width: 100%;
+                img {
+                    height: 71px;
+                }
+            }
+        }
+    }
+}

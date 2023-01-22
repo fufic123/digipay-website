@@ -1,0 +1,32 @@
+.customers {
+    min-height: 950px;
+    background-color: #fff;
+    &-content {
+        margin-top: 300px;
+        &__author {
+            margin-top: 45px;
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 24.2559px;
+            line-height: 29px;
+            color: #000000;
+        }
+    }
+    &-picture {
+        position: relative;
+        margin-top: 180px;
+        width: 490px;
+        height: 609px;
+        background-color: $yellow;
+
+        &__img {
+            position: absolute;
+            top: 32px;
+            right: 80px;
+            width: 100%;
+            img {
+                height: 545px;
+            }
+        }
+    }
+}

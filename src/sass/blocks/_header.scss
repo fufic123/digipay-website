@@ -1,12 +1,9 @@
 .header {
     min-height: 66px;
     background-color: $h-blue;
-
-    .nav {
-        display: flex;
-        justify-content: space-between;
-    }
-    
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     &__logo {
         padding-top: 13px;
         height: 100%;

@@ -3,166 +3,162 @@
     min-height: 930px;
     font-family: 'Inter';
     font-weight: 400;
-    &__wrapper {
-        display: flex;
-        justify-content: space-between;
-        &-face {
-            padding-top: 152px;
-            &__link {
-                margin-top: 55px;
-                display: flex;
-                flex-direction: row;
-                column-gap: 25px;
-                &-arrow {
-                    width: 100%;
-                    img {
-                        height: 68px;
-                    }
+    &__face {
+        padding-top: 152px;
+        &-link {
+            margin-top: 55px;
+            display: flex;
+            flex-direction: row;
+            column-gap: 25px;
+            &-arrow {
+                width: 100%;
+                img {
+                    height: 68px;
                 }
             }
-            &__cards {
-                margin-top: 68px;
+        }
+        &-cards {
+            margin-top: 68px;
+            display: flex;
+            flex-direction: row;
+            column-gap: 7px;
+            &__card {
+                width: 174px;
+                height: 145px;
+                background: $l-blue;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 display: flex;
-                flex-direction: row;
-                column-gap: 7px;
-                &-card {
-                    width: 174px;
-                    height: 145px;
-                    background: $l-blue;
-                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
-                }
-                &__img {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                &-img {
                     width: 100%;
                     margin-bottom: 11px;
                     img {
                         height: 70px;
                     }
                 }
-                p {
-                    font-size: 20px;
-                    line-height: 29px;
-                    /* identical to box height */
-                    color: #FFFFFF;
+            }
+            p {
+                font-size: 20px;
+                line-height: 29px;
+                /* identical to box height */
+                color: #FFFFFF;
+            }
+        }
+        &__advise {
+            margin-top: 13px;
+            font-size: 24.2559px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+    }
+    &-content {
+        position: relative;
+        padding-top: 86px;
+        &__bg {
+            height: 100%;
+            img {
+                width: 650px;
+            }
+        }
+        &__cart {
+            background: rgba(255, 255, 255, 0.48);
+            border-radius: 20px;
+            width: 248px;
+            height: 61px;
+            display: flex;
+            flex-direction: row;
+            column-gap: 7px;
+            justify-content: center;
+            align-items: center;
+            &-img {
+                img {
+                    width: 45px;
+                    height: 45px;
                 }
             }
-            &__advise {
-                margin-top: 13px;
+            p {
                 font-size: 24.2559px;
                 line-height: 29px;
                 color: #FFFFFF;
             }
+            &-sent {
+                position: absolute;
+                top: 160px;
+                right: -50px;
+            }
+            &-recieved {
+                position: absolute;
+                top: 320px;
+                right: -67px;
+            }
         }
-        &-content {
-            position: relative;
-            padding-top: 66px;
-            &__bg {
+        &__card {
+            width: 382px;
+            height: 160px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: inset 18px -18px 18px rgba(194, 194, 194, 0.1), inset -18px 18px 18px rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(18px);
+            /* Note: backdrop-filter has minimal browser support */
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            column-gap: 31px;
+            position: absolute;
+            left: -80px;
+            top: 310px;
+            &-img {
                 height: 100%;
                 img {
-                    width: 650px;
+                    width: 93px;
+                }
+                margin-top: 42px;
+                margin-left: 24px;
+            }
+            &-text {
+                color: #FFFFFF;
+                margin-top: 33px;
+                &__total {
+                    font-size: 22px;
+                    line-height: 29px;
+                }
+                &__amount {
+                font-size: 45px;
+                line-height: 66px;
                 }
             }
-            &__cart {
-                background: rgba(255, 255, 255, 0.48);
-                border-radius: 20px;
-                width: 248px;
-                height: 61px;
+        }
+        &__active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+            position: absolute;
+            top: 340px;
+            &-wrapper {
                 display: flex;
                 flex-direction: row;
-                column-gap: 7px;
-                justify-content: center;
+                column-gap: 12px;
                 align-items: center;
-                &-img {
-                    img {
-                        width: 45px;
-                        height: 45px;
-                    }
-                }
+                justify-content: center;
                 p {
                     font-size: 24.2559px;
                     line-height: 29px;
                     color: #FFFFFF;
                 }
-                &-sent {
-                    position: absolute;
-                    top: 160px;
-                    right: -50px;
-                }
-                &-recieved {
-                    position: absolute;
-                    top: 320px;
-                    right: -80px;
+                &__circle {
+                    width: 11px;
+                    height: 11px;
+                    border-radius: 100%;
+                    background-color: #209902;
                 }
             }
-            &__card {
-                width: 382px;
-                height: 160px;
-                background: rgba(255, 255, 255, 0.1);
-                box-shadow: inset 18px -18px 18px rgba(194, 194, 194, 0.1), inset -18px 18px 18px rgba(255, 255, 255, 0.1);
-                backdrop-filter: blur(18px);
-                /* Note: backdrop-filter has minimal browser support */
-                border-radius: 20px;
-                display: flex;
-                flex-direction: row;
-                column-gap: 31px;
-                position: absolute;
-                left: -80px;
-                top: 310px;
-                &-img {
-                    height: 100%;
-                    img {
-                        width: 93px;
-                    }
-                    margin-top: 42px;
-                    margin-left: 24px;
-                }
-                &-text {
-                    color: #FFFFFF;
-                    margin-top: 33px;
-                    &__total {
-                        font-size: 22px;
-                        line-height: 29px;
-                    }
-                    &__amount {
-                    font-size: 45px;
-                    line-height: 66px;
-                    }
-                }
-            }
-            &__active {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                height: 100%;
-                position: absolute;
-                top: 340px;
-                &-wrapper {
-                    display: flex;
-                    flex-direction: row;
-                    column-gap: 12px;
-                    align-items: center;
-                    justify-content: center;
-                    p {
-                        font-size: 24.2559px;
-                        line-height: 29px;
-                        color: #FFFFFF;
-                    }
-                    &__circle {
-                        width: 11px;
-                        height: 11px;
-                        border-radius: 100%;
-                        background-color: #209902;
-                    }
-                }
-                img {
-                    width: 298px;
-                }
+            img {
+                width: 298px;
             }
         }
     }

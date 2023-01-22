@@ -1,0 +1,39 @@
+.help {
+    min-height: 970px;
+    background-color: #fff;
+    &__content {
+        padding-top: 283px;
+    }
+    &__questions {
+        padding-top: 208px;
+        &-item {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            max-width: 570px;
+            p {
+                font-family: 'Rubik';
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 26px;
+                /* identical to box height */
+                color: #0f0d0d;
+            }
+            button {
+                cursor: pointer;
+                background: none;
+                border: none;
+                p {
+                    font-size: 22px;
+                }
+            }
+        }
+        &-divider {
+            width: 555px;
+            height: 1.5px;
+            background: #000000;
+            margin-top: 48px;
+            margin-bottom: 20px;
+        }
+    }
+}

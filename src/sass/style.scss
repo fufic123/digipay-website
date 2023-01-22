@@ -1,10 +1,15 @@
 @import 'vars/vars';
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&family=Inter&family=Mulish&family=PT+Serif:wght@700&family=Roboto&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 
 .container {
-    max-width: 1230px;
+    max-width: 1300px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 @import 'blocks/btn';
@@ -14,3 +19,6 @@
 @import 'blocks/descr';
 @import 'blocks/payment';
 @import 'blocks/why';
+@import 'blocks/help';
+@import 'blocks/community';
+@import 'blocks/customers';

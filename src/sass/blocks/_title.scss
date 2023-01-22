@@ -20,4 +20,21 @@
         font-size: 68px;
         line-height: 75px;
     }
+    &-help {
+        font-size: 68px;
+        line-height: 75px;
+        color: #000000;
+        max-width: 722px;
+    }
+    &-community {
+        font-size: 50px;
+    }
+    &-customers {
+        font-size: 68px;
+        line-height: 40px;
+        color: #000000;
+        small {
+            font-size: 36px;
+        }
+    }
 }
