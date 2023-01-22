@@ -1,1 +1,1 @@
-# digipay-website
+# digital pay-website
