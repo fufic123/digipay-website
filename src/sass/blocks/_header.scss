@@ -2,8 +2,16 @@
     min-height: 66px;
     background-color: $h-blue;
     position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
     z-index: 1;
+    transition: transform .2s linear;
+
+    &-hide {
+        transform: translateY(-100%);
+    }
+    
     &__logo {
         padding-top: 13px;
         height: 100%;

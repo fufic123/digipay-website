@@ -11,6 +11,8 @@
             display: flex;
             justify-content: space-between;
             max-width: 570px;
+            background: none;
+            border: none;
             p {
                 font-family: 'Rubik';
                 font-weight: 400;
@@ -19,21 +21,26 @@
                 /* identical to box height */
                 color: #0f0d0d;
             }
-            button {
-                cursor: pointer;
-                background: none;
-                border: none;
-                p {
-                    font-size: 22px;
-                }
-            }
         }
         &-divider {
             width: 555px;
             height: 1.5px;
             background: #000000;
-            margin-top: 48px;
+            margin-top: 25px;
             margin-bottom: 20px;
+        }
+        &-answer {
+            margin-top: 20px;
+            max-width: 500px;
+            font-family: 'Rubik';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            /* identical to box height */
+            color: #0f0d0d;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height .2s ease-out;
         }
     }
 }
